@@ -1,0 +1,53 @@
+/*For desktop*/
+.landing-box {
+    position: fixed;
+    width: 100%;
+    z-index: 1d;
+    top: 50%;
+    left: 50%;
+    margin-top: -20%;
+    margin-left: -50%;
+    font-family: "Antic Slab", serif;
+    font-weight: 700;
+}
+
+.landing-box h1 {
+	display: block;
+	text-align: center;
+}
+
+.mittens {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.landing-box p {
+    display: inline-block;
+    text-align: center;
+}
+
+.landing-box a {
+    font-weight: 800;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+}
+
+/*For mobile*/
+@media only screen and (max-width: 400px) {
+    .landing-box {
+        margin-top: -80%;
+    }
+}
