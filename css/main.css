@@ -1,3 +1,4 @@
+/*For desktop*/
 .landing-box {
     position: fixed;
     width: 100%;
@@ -42,4 +43,11 @@
 .main-box {
     display: flex;
     flex-direction: row;
+}
+
+/*For mobile*/
+@media only screen and (max-width: 400px) {
+    .landing-box {
+        margin-top: -80%;
+    }
 }
